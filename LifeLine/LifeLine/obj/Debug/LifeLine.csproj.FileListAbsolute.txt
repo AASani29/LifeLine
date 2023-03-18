@@ -1,0 +1,11 @@
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form1.resources
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
