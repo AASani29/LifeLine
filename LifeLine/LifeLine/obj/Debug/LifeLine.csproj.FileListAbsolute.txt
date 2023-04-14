@@ -10,3 +10,4 @@ C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreC
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
