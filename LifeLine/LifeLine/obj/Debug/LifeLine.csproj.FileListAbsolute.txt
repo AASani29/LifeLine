@@ -11,3 +11,5 @@ C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
+C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
