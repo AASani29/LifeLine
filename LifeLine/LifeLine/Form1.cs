@@ -69,6 +69,7 @@ namespace LifeLine
         public void button2_Click(object sender, EventArgs e)
         {
             // login button (1st ui)
+            // we have to make a text file later with complete data
             
             string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\username_pass.txt";
             bool f1 = false, f2 = false;
