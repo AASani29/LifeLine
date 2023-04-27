@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,11 +53,42 @@ namespace LifeLine
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
+            //click here to login linklabel
             Secondary_Screen secondary_screen = new Secondary_Screen();
+            this.Hide();
             secondary_screen.Show();
                 
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void button2_Click(object sender, EventArgs e)
+        {
+            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine";
+            bool f1 = false, f2 = false;
+
+            if(File.Exists(file))
+            {
+                string[] lines = File.ReadAllLines(file);
+                int i = 1;
+
+                foreach (string line in lines)
+                {
+                    if(i%2 == 1 && line == uname_tb.Text) { f1 = true; }
+                    if(i%2 == 0 && line == pass_tb.Text) { f2 = true; }
+                    i++;
+                }
+                if(f1 && f2)
+                {
+
+                }
+            }
+        }
+
+        
     }
 }
