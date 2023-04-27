@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LifeLine
 {
@@ -21,7 +22,7 @@ namespace LifeLine
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
+            Log form1 = new Log();
             form1.Show();
         }
 
@@ -29,7 +30,7 @@ namespace LifeLine
         {
             //signup button
 
-            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine";
+            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\username_pass.txt";
             bool f1 = false;
 
             
@@ -45,8 +46,18 @@ namespace LifeLine
                     }
                 }
                 if(!f1) 
-                { 
-                    if()
+                {
+                    if (signup_pass_tb.Text == signup_pass_tb2.Text)
+                    {
+                        File.AppendAllText(file, "\n");
+                        File.AppendAllText(file, signup_uname_tb.Text);
+                        File.AppendAllText(file, "\n");
+                        File.AppendAllText(file, signup_pass_tb.Text);
+
+                        Log log = new Log();
+                        this.Hide();
+                        log.Show();
+                    }
                 }
             }
         }

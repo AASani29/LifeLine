@@ -30,7 +30,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Secondary_Screen));
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.signup_pass_tb = new System.Windows.Forms.TextBox();
             this.signup_uname_tb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,17 +48,17 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.signup_pass_tb2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox2
+            // signup_pass_tb
             // 
-            this.textBox2.Location = new System.Drawing.Point(486, 208);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(315, 26);
-            this.textBox2.TabIndex = 13;
+            this.signup_pass_tb.Location = new System.Drawing.Point(486, 208);
+            this.signup_pass_tb.Name = "signup_pass_tb";
+            this.signup_pass_tb.Size = new System.Drawing.Size(315, 26);
+            this.signup_pass_tb.TabIndex = 13;
             // 
             // signup_uname_tb
             // 
@@ -257,12 +257,12 @@
             this.label8.Text = "Re-Type Password";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // signup_pass_tb2
             // 
-            this.textBox1.Location = new System.Drawing.Point(486, 263);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(315, 26);
-            this.textBox1.TabIndex = 13;
+            this.signup_pass_tb2.Location = new System.Drawing.Point(486, 263);
+            this.signup_pass_tb2.Name = "signup_pass_tb2";
+            this.signup_pass_tb2.Size = new System.Drawing.Size(315, 26);
+            this.signup_pass_tb2.TabIndex = 13;
             // 
             // Secondary_Screen
             // 
@@ -279,8 +279,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.signup_pass_tb2);
+            this.Controls.Add(this.signup_pass_tb);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.signup_uname_tb);
             this.Controls.Add(this.label3);
@@ -299,7 +299,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox signup_pass_tb;
         private System.Windows.Forms.TextBox signup_uname_tb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -317,6 +317,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox signup_pass_tb2;
     }
 }

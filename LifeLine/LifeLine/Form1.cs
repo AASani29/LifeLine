@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace LifeLine
 {
-    public partial class Form1 : Form
+    public partial class Log : Form
     {
        
         
-        public Form1()
+        public Log()
         {
             InitializeComponent();
         }
@@ -68,7 +68,9 @@ namespace LifeLine
 
         public void button2_Click(object sender, EventArgs e)
         {
-            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine";
+            // login button (1st ui)
+            
+            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\username_pass.txt";
             bool f1 = false, f2 = false;
 
             if(File.Exists(file))
@@ -84,6 +86,9 @@ namespace LifeLine
                 }
                 if(f1 && f2)
                 {
+                    this.Hide();
+                    Home_two home_Two = new Home_two();
+                    home_Two.Show();
 
                 }
             }
