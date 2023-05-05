@@ -1,6 +1,6 @@
 ﻿namespace LifeLine
 {
-    partial class Form1
+    partial class Log
     {
         /// <summary>
         /// Required designer variable.
@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Log));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.uname_tb = new System.Windows.Forms.TextBox();
+            this.pass_tb = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button2 = new System.Windows.Forms.Button();
@@ -109,19 +109,20 @@
             this.label3.Text = "Password";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // uname_tb
             // 
-            this.textBox1.Location = new System.Drawing.Point(450, 181);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(315, 26);
-            this.textBox1.TabIndex = 5;
+            this.uname_tb.Location = new System.Drawing.Point(450, 181);
+            this.uname_tb.Name = "uname_tb";
+            this.uname_tb.Size = new System.Drawing.Size(315, 26);
+            this.uname_tb.TabIndex = 5;
+            this.uname_tb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // pass_tb
             // 
-            this.textBox2.Location = new System.Drawing.Point(450, 247);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(315, 26);
-            this.textBox2.TabIndex = 6;
+            this.pass_tb.Location = new System.Drawing.Point(450, 247);
+            this.pass_tb.Name = "pass_tb";
+            this.pass_tb.Size = new System.Drawing.Size(315, 26);
+            this.pass_tb.TabIndex = 6;
             // 
             // label4
             // 
@@ -159,8 +160,9 @@
             this.button2.TabIndex = 24;
             this.button2.Text = "Log In";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Log
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -168,16 +170,16 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pass_tb);
+            this.Controls.Add(this.uname_tb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Log";
+            this.Text = "Log";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -193,8 +195,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox uname_tb;
+        private System.Windows.Forms.TextBox pass_tb;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button button2;

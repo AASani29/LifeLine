@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +11,11 @@ using System.Windows.Forms;
 
 namespace LifeLine
 {
-    public partial class Form1 : Form
+    public partial class Log : Form
     {
        
         
-        public Form1()
+        public Log()
         {
             InitializeComponent();
         }
@@ -52,11 +53,48 @@ namespace LifeLine
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
+            //click here to login linklabel
             Secondary_Screen secondary_screen = new Secondary_Screen();
+            this.Hide();
             secondary_screen.Show();
                 
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void button2_Click(object sender, EventArgs e)
+        {
+            // login button (1st ui)
+            // we have to make a text file later with complete data
+            
+            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\username_pass.txt";
+            bool f1 = false, f2 = false;
+
+            if(File.Exists(file))
+            {
+                string[] lines = File.ReadAllLines(file);
+                int i = 1;
+
+                foreach (string line in lines)
+                {
+                    if(i%2 == 1 && line == uname_tb.Text) { f1 = true; }
+                    if(i%2 == 0 && line == pass_tb.Text) { f2 = true; }
+                    i++;
+                }
+                if(f1 && f2)
+                {
+                    this.Hide();
+                    Home_two home_Two = new Home_two();
+                    home_Two.Show();
+
+                }
+            }
+        }
+
+        
     }
 }
