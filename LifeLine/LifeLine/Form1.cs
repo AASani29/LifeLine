@@ -8,13 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.LinkLabel;
 
 namespace LifeLine
 {
     public partial class Log : Form
     {
-       
-        
+
+
         public Log()
         {
             InitializeComponent();
@@ -32,7 +33,7 @@ namespace LifeLine
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -57,7 +58,7 @@ namespace LifeLine
             Secondary_Screen secondary_screen = new Secondary_Screen();
             this.Hide();
             secondary_screen.Show();
-                
+
 
         }
 
@@ -70,34 +71,50 @@ namespace LifeLine
         {
             // login button (1st ui)
             // we have to make a text file later with complete data
-            
-            string file = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\username_pass.txt";
-            bool f1 = false, f2 = false;
 
-            if(File.Exists(file))
+            string filepass = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\upass.txt";
+            string filename = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\uname.txt";
+
+
+            bool usernameMatch = false, passwordMatch = false;
+
+            if (File.Exists(filepass))
             {
-                string[] lines = File.ReadAllLines(file);
-                int i = 1;
+                string[] lines = File.ReadAllLines(filepass);
+
 
                 foreach (string line in lines)
                 {
-                    if(i%2 == 1 && line == uname_tb.Text) { f1 = true; }
-                    if(i%2 == 0 && line == pass_tb.Text) { f2 = true; }
-                    
-                    i++;
+                    if (line == pass_tb.Text)
+                    {
+                        passwordMatch = true;
+                    }
 
-                    Console.WriteLine(  i);
                 }
-                if(f1 && f2)
-                {
-                    this.Hide();
-                    Home_two home_Two = new Home_two();
-                    home_Two.Show();
 
+
+            }
+            if (File.Exists(filename))
+            {
+                string[] unames = File.ReadAllLines(filename);
+
+                foreach (string name in unames)
+                {
+                    if (name == uname_tb.Text)
+                    {
+                        usernameMatch = true;
+                    }
                 }
             }
-        }
 
-        
+            if (usernameMatch && passwordMatch)
+            {
+                this.Hide();
+                Home_two home_Two = new Home_two();
+                home_Two.Show();
+            }
+
+
+        }
     }
 }

@@ -30,29 +30,40 @@ namespace LifeLine
         {
             //signup button
 
-            string file = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\username_pass.txt";
+            string filepass = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\upass.txt";
+            string filename = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\uname.txt";
             bool f1 = false;
 
             
 
-            if(File.Exists(file))
+            if(File.Exists(filepass)  && File.Exists(filepass))
             {
-                string[] lines = File.ReadAllLines(file);
-                foreach(string line in lines)
+                string[] lines = File.ReadAllLines(filepass);
+                string[] names = File.ReadAllLines(filename);
+
+
+                foreach(string name in names)
                 {
-                    if(String.Equals(line, signup_uname_tb.Text, StringComparison.OrdinalIgnoreCase))
+                    if(String.Equals(name, signup_uname_tb.Text, StringComparison.OrdinalIgnoreCase))
                     {
                         f1 = true;break;
                     }
                 }
+                
                 if(!f1) 
                 {
                     if (signup_pass_tb.Text == signup_pass_tb2.Text)
                     {
-                        File.AppendAllText(file, "\n");
-                        File.AppendAllText(file, signup_uname_tb.Text);
-                        File.AppendAllText(file, "\n");
-                        File.AppendAllText(file, signup_pass_tb.Text);
+                        
+                        
+                        File.AppendAllText(filename, signup_uname_tb.Text);
+                        File.AppendAllText(filename, "\n");
+
+
+                        
+                        File.AppendAllText(filepass, signup_pass_tb.Text);
+                        File.AppendAllText(filepass, "\n");
+
 
                         Log log = new Log();
                         this.Hide();
