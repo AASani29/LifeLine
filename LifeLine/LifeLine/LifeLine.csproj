@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs" />
     <Compile Include="BloodBank.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +79,8 @@
     <Compile Include="Secondary Screen.Designer.cs">
       <DependentUpon>Secondary Screen.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="Utility.cs" />
     <EmbeddedResource Include="BloodBank.resx">
       <DependentUpon>BloodBank.cs</DependentUpon>
     </EmbeddedResource>

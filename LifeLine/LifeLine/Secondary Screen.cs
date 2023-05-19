@@ -30,7 +30,7 @@ namespace LifeLine
         {
             //signup button
 
-            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\username_pass.txt";
+            string file = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\username_pass.txt";
             bool f1 = false;
 
             
@@ -40,7 +40,7 @@ namespace LifeLine
                 string[] lines = File.ReadAllLines(file);
                 foreach(string line in lines)
                 {
-                    if(line == signup_uname_tb.Text)
+                    if(String.Equals(line, signup_uname_tb.Text, StringComparison.OrdinalIgnoreCase))
                     {
                         f1 = true;break;
                     }

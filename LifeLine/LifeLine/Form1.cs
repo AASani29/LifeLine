@@ -71,7 +71,7 @@ namespace LifeLine
             // login button (1st ui)
             // we have to make a text file later with complete data
             
-            string file = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\username_pass.txt";
+            string file = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\username_pass.txt";
             bool f1 = false, f2 = false;
 
             if(File.Exists(file))
@@ -83,7 +83,10 @@ namespace LifeLine
                 {
                     if(i%2 == 1 && line == uname_tb.Text) { f1 = true; }
                     if(i%2 == 0 && line == pass_tb.Text) { f2 = true; }
+                    
                     i++;
+
+                    Console.WriteLine(  i);
                 }
                 if(f1 && f2)
                 {

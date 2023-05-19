@@ -32,3 +32,18 @@ C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.re
 E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
 E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Log.resources
 E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Log.resources
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
+E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
