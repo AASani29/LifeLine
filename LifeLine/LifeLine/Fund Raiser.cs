@@ -29,7 +29,7 @@ namespace LifeLine
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            donateform1.BringToFront();
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
@@ -68,6 +68,16 @@ namespace LifeLine
             Home_two home_Two = new Home_two();
             home_Two.Show();
             
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            donateform1.BringToFront();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            donateform1.BringToFront();
         }
     }
 }

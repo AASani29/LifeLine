@@ -1,68 +1,20 @@
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form1.resources
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
-<<<<<<< HEAD
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form1.resources
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
-=======
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
-C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
->>>>>>> 7698e436a8fcd96abc7e096b46fa226a4ee304ae
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Log.resources
-E:\Important\ProjectOOC\LIFELINE\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Log.resources
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
-E:\Important\ProjectOOC\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Log.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Blood_Bank.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.GetBlood.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.DonateBlood.resources
-C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.HomeBlood.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Blood_Bank.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.DonateBlood.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.donateform.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Log.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.HomeBlood.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.GetBlood.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
