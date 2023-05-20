@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.cs" />
+    <Compile Include="Attachmentsform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Attachmentsform.Designer.cs">
+      <DependentUpon>Attachmentsform.cs</DependentUpon>
+    </Compile>
     <Compile Include="Blood-Bank.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
       <DependentUpon>GetBlood.cs</DependentUpon>
     </Compile>
     <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="Attachmentsform.resx">
+      <DependentUpon>Attachmentsform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Blood-Bank.resx">
       <DependentUpon>Blood-Bank.cs</DependentUpon>
     </EmbeddedResource>

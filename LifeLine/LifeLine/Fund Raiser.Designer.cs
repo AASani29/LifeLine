@@ -481,7 +481,7 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(1127, 552);
+            this.ClientSize = new System.Drawing.Size(1127, 545);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.textBox10);
