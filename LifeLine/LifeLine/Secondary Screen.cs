@@ -22,12 +22,17 @@ namespace LifeLine
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Log form1 = new Log();
-            form1.Show();
+            //Form2 abc = new Form2();
+          //  abc.ShowDialog();
+            ////Log form1 = new Log();
+            ////form1.Show();
+            Blood_Bank bloodBank = new Blood_Bank();
+            bloodBank.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             //signup button
 
             string filepass = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\upass.txt";

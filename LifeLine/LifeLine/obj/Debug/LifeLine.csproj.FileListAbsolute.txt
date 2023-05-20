@@ -62,3 +62,7 @@ C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.
 C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
 C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
 C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
+C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Blood_Bank.resources
+C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.GetBlood.resources
+C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.DonateBlood.resources
+C:\Users\SANI\Desktop\Billi jeans\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.HomeBlood.resources

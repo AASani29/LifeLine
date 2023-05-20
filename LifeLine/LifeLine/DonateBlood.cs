@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LifeLine
 {
-    public partial class GetBlood : UserControl
+    public partial class DonateBlood : UserControl
     {
-        public GetBlood()
+        public DonateBlood()
         {
             InitializeComponent();
-        }
-
-        private void GetBlood_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
