@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace LifeLine
 {
-    public partial class Blood_Bank : Form
+    public partial class UserControl1 : UserControl
     {
-        public Blood_Bank()
+        public UserControl1()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
