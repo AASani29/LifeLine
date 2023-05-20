@@ -23,9 +23,9 @@ namespace LifeLine
         {
             this.Hide();
             //Form2 abc = new Form2();
-          //  abc.ShowDialog();
-            ////Log form1 = new Log();
-            ////form1.Show();
+           //abc.ShowDialog();
+            //Log form1 = new Log();
+           // form1.Show();
             Blood_Bank bloodBank = new Blood_Bank();
             bloodBank.Show();
         }
@@ -76,6 +76,11 @@ namespace LifeLine
                     }
                 }
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

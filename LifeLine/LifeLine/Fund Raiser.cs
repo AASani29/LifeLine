@@ -61,5 +61,13 @@ namespace LifeLine
         {
             textBox10.Text = textBox1.Text;
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home_two home_Two = new Home_two();
+            home_Two.Show();
+            
+        }
     }
 }
