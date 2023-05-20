@@ -15,6 +15,8 @@ namespace LifeLine
     public partial class Log : Form
     {
 
+        List<User> users = new List<User>();
+        string path = @"C:\Users\Hp\Desktop\New LifeLine\";
 
         public Log()
         {
@@ -72,42 +74,33 @@ namespace LifeLine
             // login button (1st ui)
             // we have to make a text file later with complete data
 
-            string filepass = "E:\\Important\\ProjectOOC\\LIFELINE\\LifeLine\\LifeLine\\upass.txt";
-            string filename = "E:\\Important\\ProjectOOC\\New LifeLine\\LifeLine\\LifeLine\\uname.txt";
+            bool f1  = false;
 
+            string uname = uname_tb.Text;
+            string upass = pass_tb.Text;
 
-            bool usernameMatch = false, passwordMatch = false;
+            StreamReader sr = new StreamReader(path + "user.txt");
+            string text = sr.ReadLine();
 
-            if (File.Exists(filepass))
+            while(text != null)
             {
-                string[] lines = File.ReadAllLines(filepass);
+                string[] userfrags = text.Split(',');
+                string name = userfrags[0];
+                string pass = userfrags[1];
 
-
-                foreach (string line in lines)
+                if(uname==name && upass==pass)
                 {
-                    if (line == pass_tb.Text)
-                    {
-                        passwordMatch = true;
-                    }
-
+                    f1 = true;
                 }
 
-
+                text = sr.ReadLine();
             }
-            if (File.Exists(filename))
-            {
-                string[] unames = File.ReadAllLines(filename);
+            
 
-                foreach (string name in unames)
-                {
-                    if (name == uname_tb.Text)
-                    {
-                        usernameMatch = true;
-                    }
-                }
-            }
 
-            if (usernameMatch && passwordMatch)
+
+
+            if (f1)
             {
                 this.Hide();
                 Home_two home_Two = new Home_two();

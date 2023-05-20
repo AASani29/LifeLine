@@ -38,12 +38,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Bloodtb = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Ageinfotb = new System.Windows.Forms.TextBox();
+            this.phonenotb = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.locationtb = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -143,10 +143,10 @@
             this.label4.Text = "Blood Group";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox1
+            // Bloodtb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.Bloodtb.FormattingEnabled = true;
+            this.Bloodtb.Items.AddRange(new object[] {
             "A +ve",
             "B +ve",
             "Ab +ve",
@@ -155,10 +155,10 @@
             "B -ve",
             "AB -ve",
             "O -ve"});
-            this.comboBox1.Location = new System.Drawing.Point(470, 377);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(315, 28);
-            this.comboBox1.TabIndex = 15;
+            this.Bloodtb.Location = new System.Drawing.Point(470, 377);
+            this.Bloodtb.Name = "Bloodtb";
+            this.Bloodtb.Size = new System.Drawing.Size(315, 28);
+            this.Bloodtb.TabIndex = 15;
             // 
             // label5
             // 
@@ -173,19 +173,19 @@
             this.label5.Text = "Age";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox3
+            // Ageinfotb
             // 
-            this.textBox3.Location = new System.Drawing.Point(470, 320);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(315, 26);
-            this.textBox3.TabIndex = 17;
+            this.Ageinfotb.Location = new System.Drawing.Point(470, 320);
+            this.Ageinfotb.Name = "Ageinfotb";
+            this.Ageinfotb.Size = new System.Drawing.Size(315, 26);
+            this.Ageinfotb.TabIndex = 17;
             // 
-            // textBox4
+            // phonenotb
             // 
-            this.textBox4.Location = new System.Drawing.Point(470, 430);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(315, 26);
-            this.textBox4.TabIndex = 19;
+            this.phonenotb.Location = new System.Drawing.Point(470, 430);
+            this.phonenotb.Name = "phonenotb";
+            this.phonenotb.Size = new System.Drawing.Size(315, 26);
+            this.phonenotb.TabIndex = 19;
             // 
             // label6
             // 
@@ -200,12 +200,12 @@
             this.label6.Text = "Phone";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox5
+            // locationtb
             // 
-            this.textBox5.Location = new System.Drawing.Point(470, 487);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(315, 26);
-            this.textBox5.TabIndex = 21;
+            this.locationtb.Location = new System.Drawing.Point(470, 487);
+            this.locationtb.Name = "locationtb";
+            this.locationtb.Size = new System.Drawing.Size(315, 26);
+            this.locationtb.TabIndex = 21;
             // 
             // label7
             // 
@@ -271,13 +271,13 @@
             this.ClientSize = new System.Drawing.Size(1023, 657);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.locationtb);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.phonenotb);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.Ageinfotb);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.Bloodtb);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.signup_pass_tb2);
             this.Controls.Add(this.signup_pass_tb);
@@ -307,12 +307,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox Bloodtb;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox Ageinfotb;
+        private System.Windows.Forms.TextBox phonenotb;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox locationtb;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
