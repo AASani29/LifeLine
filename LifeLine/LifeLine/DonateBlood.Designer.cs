@@ -101,9 +101,9 @@
             this.label7.ForeColor = System.Drawing.Color.Maroon;
             this.label7.Location = new System.Drawing.Point(109, 374);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(233, 29);
+            this.label7.Size = new System.Drawing.Size(231, 29);
             this.label7.TabIndex = 54;
-            this.label7.Text = "Amount in Bag(s)   ";
+            this.label7.Text = "Blood Group          ";
             // 
             // label6
             // 
@@ -137,7 +137,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Regular Donator",
             "Emergency Donator"});
-            this.comboBox1.Location = new System.Drawing.Point(387, 168);
+            this.comboBox1.Location = new System.Drawing.Point(387, 172);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(314, 28);
             this.comboBox1.TabIndex = 60;

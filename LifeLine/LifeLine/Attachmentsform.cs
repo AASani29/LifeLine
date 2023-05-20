@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace LifeLine
 {
-    public partial class GetBlood : UserControl
+    public partial class Attachmentsform : UserControl
     {
-        public GetBlood()
+        public Attachmentsform()
         {
             InitializeComponent();
-        }
-
-        private void GetBlood_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

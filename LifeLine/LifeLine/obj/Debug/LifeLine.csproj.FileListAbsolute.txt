@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
 C:\Users\SANI\Desktop\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
@@ -85,3 +86,25 @@ C:\Users\Hp\Desktop\New LifeLine\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.p
 C:\Users\Hp\Desktop\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
 C:\Users\Hp\Desktop\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
 C:\Users\Hp\Desktop\New LifeLine\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
+=======
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.exe.config
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Blood_Bank.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.BloodBank.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.DonateBlood.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.donateform.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Log.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Form2.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Home_two.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.HomeBlood.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Properties.Resources.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.Secondary_Screen.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.GetBlood.resources
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.exe
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\obj\Debug\LifeLine.pdb
+C:\Users\User\Desktop\Project by rhy\LifeLine\LifeLine\LifeLine\bin\Debug\LifeLine.pdb
+>>>>>>> d21f02978385e003408e0f6bbed26d601abb6ff1

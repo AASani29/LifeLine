@@ -27,12 +27,12 @@ namespace LifeLine
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //Form2 abc = new Form2();
-          //  abc.ShowDialog();
-            ////Log form1 = new Log();
-            ////form1.Show();
-            Blood_Bank bloodBank = new Blood_Bank();
-            bloodBank.Show();
+            Form2 abc = new Form2();
+             abc.Show();
+            //Log form1 = new Log();
+           // form1.Show();
+           // Blood_Bank bloodBank = new Blood_Bank();
+           // bloodBank.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -63,6 +63,11 @@ namespace LifeLine
 
 
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
